@@ -75,26 +75,26 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """*Hey there, my name is Mizuki 👸\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands.*"""
+PM_START_TEXT = """*Hey there, my name is Hentai\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands\n\n Mentained BY @TheShashank 😎🔥.*"""
 buttons = [
     [
-        InlineKeyboardButton(text="♞ Support", url="https://t.me/Infinity_BOTs"),
+        InlineKeyboardButton(text="♞ Support", url="https://t.me/studyboyzandgirls"),
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="#⃣ Source Code", url="https://github.com/ImJanindu/Mizuki"
+            text="#⃣ Creator", url="https://t.me/SedLyf"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add me to your group ➕", url="t.me/TheMizukiBot?startgroup=true"
+            text="➕ Add me to your group ➕", url="t.me/TheHentai_RoBoT?startgroup=true"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-Hey there! My name is *Mizuki*.
+Hey there! My name is *Hentai*.😎🔥
 I'm a group management bot, here to help you get around and keep the order in your groups!
 
 *Main* commands available:
@@ -106,7 +106,7 @@ I'm a group management bot, here to help you get around and keep the order in yo
    ◔ in a group: will redirect you to pm, with all that chat's settings.
 """
 
-DONATE_STRING = "No Need, I'm Rich 😏"
+DONATE_STRING = "No Need, I'm Rich 😎🔥"
 
 IMPORTED = {}
 MIGRATEABLE = []
