@@ -82,9 +82,7 @@ buttons = [
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(
-            text="#⃣ Creator", url="https://t.me/SedLyf"
-        ),
+        InlineKeyboardButton(text="#⃣ Creator", url="https://t.me/SedLyf"),
     ],
     [
         InlineKeyboardButton(
