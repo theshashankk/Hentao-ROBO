@@ -14,7 +14,7 @@ from Mizuki import telethn as update
 from Mizuki.events import register
 
 if not UPSTREAM_REPO_URL:
-    UPSTREAM_REPO_URL = "https://github.com/ImJanindu/Mizuki"
+    UPSTREAM_REPO_URL = "https://github.com/theshashankk/Hentao-ROBO"
 
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
