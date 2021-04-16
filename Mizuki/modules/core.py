@@ -7,7 +7,7 @@ from Mizuki import OWNER_ID
 from Mizuki import telethn as tbot
 from Mizuki.events import register
 
-water = "./Mizuki/resources/InfinityBots.jpg"
+water = "./Mizuki/resources/whitedevil.jpg"
 client = tbot
 
 
