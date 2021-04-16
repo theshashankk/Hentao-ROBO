@@ -28,7 +28,7 @@ async def _(event):
     rules = sql.get_rules(chat_id)
     if rules:
         await event.reply(
-            "Click on the below button and check my pm to get this group's rules 👇",
+            "Click on the below button and check my pm to get this group's rules 😎🔥",
             buttons=[[Button.inline("Rules", data=f"start-rules-{sender}")]],
         )
     else:
