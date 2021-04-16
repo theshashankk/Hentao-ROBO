@@ -18,7 +18,7 @@ async def _(event):
         pass
     else:
         return
-    await event.edit("**Restarted Mizuki 👀**")
+    await event.edit("**Restarted Hentai 😎🔥**")
     try:
         herokuHelper = HerokuHelper(HEROKU_APP_NAME, HEROKU_API_KEY)
         herokuHelper.restart()
