@@ -160,22 +160,22 @@
       },
       "CHAT_BASE_TOKEN": {
          "description": "Get a token from https://chatbase.com",
-         "required": true,
+         "required": false,
          "value": ""
       }, 
       "MONGO_DB_URI": {
          "description": "Mongo db URI here. Get it from mongodb.com create acc. Create organization. Create a cluster connection mode from everywhere give user pass get uri. replace <password> with pass <name> with Mizuki",
-         "required": true,
+         "required": false,
          "value": ""   
       },  
       "OPENWEATHERMAP_ID": {
          "description": "Get weather API from https://openweathermap.org/api",
-         "required": true,
+         "required": false,
          "value": ""
       },    
       "BOT_ID": {
          "description": "ID of bot.. get it from other bot",
-         "required": true,
+         "required": false,
          "value": ""
       },         
       "DONATION_LINK": {
