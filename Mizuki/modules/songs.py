@@ -66,7 +66,7 @@ async def download_song(v_url):
     except BaseException:
         return await rkp.edit("`Failed to find that song`")
     type = "audio"
-    await rkp.edit("**Preparing to download by @Infinity_BOTs**")
+    await rkp.edit("**Preparing to download by @TheHentai_RoBoT**")
     if type == "audio":
         opts = {
             "format": "bestaudio",
