@@ -89,14 +89,14 @@ async def download_song(v_url):
         }
         song = True
     try:
-        await rkp.edit("**Searching song, please wait 😁**")
+        await rkp.edit("**RUK JAA SONG SEARCH KR RHA HU😁**")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
         await rkp.edit(f"`{str(DE)}`")
         return
     except ContentTooShortError:
-        await rkp.edit("`The download content was too short.`")
+        await rkp.edit("`SONG DOWNLOAD HO RHA VRO 😎🔥.`")
         return
     except GeoRestrictedError:
         await rkp.edit(
